@@ -88,10 +88,10 @@
 		{
 			"label": "Clean BUILD folder",
 			"windows": {
-				"command": "rmdir Build /s /q && echo Cleaning BUILD folder."
+				"command": "rmdir build /s /q && echo Cleaning BUILD folder."
 			},
 			"linux": {
-				"command": "rm -r Build && echo Cleaning BUILD folder."
+				"command": "rm -r build && echo Cleaning BUILD folder."
 			},
 			"type": "shell",
 			"group": "none"
@@ -100,10 +100,10 @@
 		{
 			"label": "Clean BIN folder",
 			"windows": {
-				"command": "rmdir Bin /s /q && echo Cleaning BIN folder."
+				"command": "rmdir bin /s /q && echo Cleaning BIN folder."
 			},
 			"linux": {
-				"command": "rm -r Bin && echo Cleaning BIN folder."
+				"command": "rm -r bin && echo Cleaning BIN folder."
 			},
 			"type": "shell",
 			"group": "none"
