@@ -40,3 +40,4 @@ workspace "VSCodeCppExampleProjects"
 	
 	-- Add projects:
 	include("1_hello_world/premake5.lua")
+	include("2_fizzbuzz/premake5.lua")
