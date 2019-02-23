@@ -9,7 +9,10 @@ Advantages of this approach:
 
 This repository contains example projects designed for newbies to learn how to properly develop C++ applications without being concerned about whether your code will compile on Windows, Linux or other platform. **Keep in mind that we are still limited to what Premake5 supports and that you still have to write your code in such way that it will actually compile.**
 
-Visual Studio Code can easily become very good IDE, if you properly setup it. Take a look at [tasks.json](.vscode/tasks.json) file to learn how to write and use various tasks. Use `Cmd+Shift+P` (Windows: `Ctrl+Shift+P`) in VS Code to open command window, then type and select `Run build task`. Pick one of the configured build actions (`Re/build (VS2017/GCC)`) and then select platform and configuration from dropdown list.
+Visual Studio Code can easily become very good IDE, if you properly setup it.
+Take a look at [tasks.json](.vscode/tasks.json) file to learn how to write and use various tasks.
+Use `Ctrl+Shift+P` in VS Code to open command window, then type and select `Run build task`.
+Pick one of the configured build actions (`Re/build (VS2017/GCC)`) and then select platform and configuration from dropdown list.
 
 - You have to have C++ compiler installed (either g++ or MS Visual Studio C++)
 - You have to have Premake5 installed and added to system `PATH` environment variable.
